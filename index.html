@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Twemoji-Picker</title>
+<link rel="stylesheet" href="css/twemoji-picker.css" />
+</head>
+<body>
+<textarea id="twemoji-picker"></textarea>
+<script src="js/jquery-2.1.1.min.js"></script> 
+<script src="js/twemoji-picker.min.js"></script> 
+<script>
+
+$('#twemoji-picker').twemojiPicker({
+  width: '100%',
+  height: '100px',
+  pickerWidth: '100%',
+  pickerHeight: '150px',
+  icon: 'grinning',
+  category: ['smile', 'cherry-blossom', 'video-game', 'oncoming-automobile', 'symbols'],
+  iconSize: '25px',
+  categorySize: '20px',
+  size: '25px'
+});
+</script>
+</body>
+</html>
